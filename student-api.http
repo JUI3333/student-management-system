@@ -1,0 +1,12 @@
+
+### Create a student
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "name": "Jui Test",
+  "email": "jui.test@example.com"
+}
+
+### Get all students
+GET http://localhost:8080/api/students
